@@ -6,7 +6,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import FileUrl from "../file/MustafaQaiser(Cs - Software Engineer).pdf"
+import FileUrl from "../file/MustafaQaiser(Cs - Software Engineer) .pdf"
 import "../assets/css/home.css"
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
