@@ -262,7 +262,7 @@ const Home = () => {
 
                 </div>
                 <div className="col-lg-6 col-sm-12 mt-3">
-                  <a href='https://gearbookie.com/' target='_blank'>
+                  <a href='https://booking.gearbookie.com/' target='_blank'>
                     <div className="service-box d-flex w-100 align-items-center" style={{ position: "relative", background: "#01182d" }}>
                       <img src={ProjectFive} alt="" className='w-100' style={{ height: "300px" , objectFit:"cover" }} />
                       <h5 className="mb-0" style={{ position: "absolute", top: "0px", left: "0px", background: "#fff", cursor: "pointer", padding: "10px 30px", color: "#000", fontWeight: "bold" }}>Gear Bookie</h5>
