@@ -1,4 +1,4 @@
-import { Profile,  ProjectOne, ProjectThree, ProjectTwo } from '../utils/image'
+import { Profile,  ProjectOne, ProjectThree, ProjectTwo, ProjectFour,ProjectFive,ProjectSix } from '../utils/image'
 import { ProgreeBar } from '../components'
 import { IoLogoReact } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
@@ -6,7 +6,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import FileUrl from "../file/MustafaQaiser(Cs - Software Engineer) .pdf"
+import FileUrl from "../file/Faizan-Resume.pdf"
 import "../assets/css/home.css"
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -22,15 +22,15 @@ const Home = () => {
           <div className="col-lg-4 col-sm-12">
             <div className="left-sidebar">
               <div className="image">
-                <img src={Profile} alt="" />
+                <img src={Profile} alt="" style={{objectFit:"cover"}} />
               </div>
-              <h4 className='name text-white' style={{ fontSize: "24px" }}>Muhammad Mustafa Qaiser</h4>
+              <h4 className='name text-white' style={{ fontSize: "24px" }}>Faizan Ibrahim</h4>
               <h5 className="designation" style={{ color: "#b4b4b4", fontSize: "20px" }}>MERN Stack Developer</h5>
               <div className="d-flex gap-3 mt-2 justify-content-center">
-                <a href='https://www.linkedin.com/in/mustafa-qaiser-1bbb4a247/' target='_blank'>
+                <a href='https://www.linkedin.com/in/faizan-ibrahim-a05361239/' target='_blank'>
                   <CiLinkedin color='#fff' fontSize={30} />
                 </a>
-                <a href='https://github.com/MustafaQaiser' target='_blank'>
+                <a href='https://github.com/faizanwebstorms' target='_blank'>
                   <FaGithub color='#fff' fontSize={30} />
                 </a>
                 {/* <a href='https://www.behance.net/umaramjad4' target='_blank'>  
@@ -65,11 +65,11 @@ const Home = () => {
                 <h5>Contact :</h5>
                 <div className='d-flex gap-2'>
                   <p>Phone No : </p>
-                  <p>0370-4879105</p>
+                  <p>0305-5835501</p>
                 </div>
                 <div className='d-flex gap-2'>
                   <p>Email : </p>
-                  <p>mustafaqaiser78@gmail.com</p>
+                  <p>faizanibrahim5501@gmail.com</p>
                 </div>
 
                 {/* <div className='row'>
@@ -132,7 +132,7 @@ const Home = () => {
               <div className="row">
                 <div className="col-lg-7 col-sm-12 d-flex align-items-center">
                   <div className="content">
-                    <h4>I'm Muhammad Mustafa Qaiser <span>MERN Stack</span> Developer </h4>
+                    <h4>I'm Faizan Ibrahim <span>MERN Stack</span> Developer </h4>
                     <p className="mb-0 text-white fs-5">Expert React JS Developer | Bootstrap | <br /> Material UI | MongoDB | Node JS | Next JS | HTML/CSS | Saas </p>
                     {/* <div className="btn d-flex justify-content-start">
                 <button style={{background:"#ffffff"}}>Hire Me</button>
@@ -248,6 +248,33 @@ const Home = () => {
                     <div className="service-box d-flex w-100 align-items-center" style={{ position: "relative", background: "blue" }}>
                       <img src={ProjectThree} alt="" className='w-100' style={{ height: "300px" , objectFit:"cover" }} />
                       <h5 className="mb-0" style={{ position: "absolute", top: "0px", left: "0px", background: "#fff", cursor: "pointer", padding: "10px 30px", color: "#000", fontWeight: "bold" }}>Weship</h5>
+                    </div>
+                  </a>
+
+                </div>
+                <div className="col-lg-6 col-sm-12 mt-3">
+                  <a href='https://efficonx.com/auth/login' target='_blank'>
+                    <div className="service-box d-flex w-100 align-items-center" style={{ position: "relative", background: "#25265e" }}>
+                      <img src={ProjectFour} alt="" className='w-100' style={{ height: "300px" , objectFit:"cover" }} />
+                      <h5 className="mb-0" style={{ position: "absolute", top: "0px", left: "0px", background: "#fff", cursor: "pointer", padding: "10px 30px", color: "#000", fontWeight: "bold" }}>Efficonx</h5>
+                    </div>
+                  </a>
+
+                </div>
+                <div className="col-lg-6 col-sm-12 mt-3">
+                  <a href='https://gearbookie.com/' target='_blank'>
+                    <div className="service-box d-flex w-100 align-items-center" style={{ position: "relative", background: "#01182d" }}>
+                      <img src={ProjectFive} alt="" className='w-100' style={{ height: "300px" , objectFit:"cover" }} />
+                      <h5 className="mb-0" style={{ position: "absolute", top: "0px", left: "0px", background: "#fff", cursor: "pointer", padding: "10px 30px", color: "#000", fontWeight: "bold" }}>Gear Bookie</h5>
+                    </div>
+                  </a>
+
+                </div>
+                <div className="col-lg-6 col-sm-12 mt-3">
+                  <a href='https://app.mc2.fi/' target='_blank'>
+                    <div className="service-box d-flex w-100 align-items-center" style={{ position: "relative", background: "green" }}>
+                      <img src={ProjectSix} alt="" className='w-100' style={{ height: "300px" , objectFit:"cover" }} />
+                      <h5 className="mb-0" style={{ position: "absolute", top: "0px", left: "0px", background: "#fff", cursor: "pointer", padding: "10px 30px", color: "#000", fontWeight: "bold" }}>Mc^2 finance</h5>
                     </div>
                   </a>
 
